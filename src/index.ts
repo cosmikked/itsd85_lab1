@@ -16,8 +16,3 @@ for (const student of students) {
   console.log(formatStudent(student));
 }
 
-// if (isValidStudent(mockApiResponse.data)) {
-//   console.log('Valid student');
-// } else {
-//   console.log('Invalid student');
-// }
