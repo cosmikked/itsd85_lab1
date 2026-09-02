@@ -1,5 +1,6 @@
 import type { Student, StudentStatus } from '../types/student.js';
 
+// uses a type predicate (student is Student) to tell TypeScript that if it returns true the type of student is really Student
 export function isValidStudent(student: unknown): student is Student {
   return (
     typeof student === 'object' &&
